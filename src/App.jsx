@@ -7,7 +7,6 @@ function App() {
   return (
     <div>
       <TodoApp />
-      {/* Ye container hamesha page pe hona chahiye taki toast show ho sake */}
       <ToastContainer position="top-right" autoClose={2000} />
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import "./TodoApp.css";  // CSS import karna na bhoolna
+import "./TodoApp.css";
 
 function TodoApp() {
   const [todoList, setTodoList] = useState([]);
